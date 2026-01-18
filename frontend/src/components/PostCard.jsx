@@ -44,7 +44,7 @@ export default function PostCard({ post, refreshPosts }) {
 
       {post.image && (
         <img 
-          src={`http://localhost:5000/uploads/${post.image}`}
+          src={`https://mini-social-wall.onrender.com/uploads/${post.image}`}
           style={{width:"100%", borderRadius:"8px"}}
         />
       )}
